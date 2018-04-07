@@ -1,0 +1,18 @@
+{
+    "name": "fureszpeter/design-patterns",
+    "description": "Must to know design patterns",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Furesz Peter",
+            "email": "fureszpeter@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Foo\\" : "src"
+        }
+    }
+}
