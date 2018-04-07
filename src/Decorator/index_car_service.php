@@ -8,6 +8,11 @@ use Foo\Decorator\Services\TireRotation;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
+/**
+ * Example #1 - CarService
+ *
+ * @link https://laracasts.com/series/design-patterns-in-php/episodes/1
+ */
 $basicInspection = new BasicInspection();
 echo $basicInspection->getDescription() . PHP_EOL;
 echo $basicInspection->getCost() . PHP_EOL;

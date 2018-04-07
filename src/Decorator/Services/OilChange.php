@@ -2,8 +2,6 @@
 
 namespace Foo\Decorator\Services;
 
-use Foo\Decorator\Contracts\CarService;
-
 class OilChange implements CarService
 {
     /** @var CarService */

@@ -1,6 +1,6 @@
 <?php
 
-namespace Foo\Decorator\Contracts;
+namespace Foo\Decorator\Services;
 
 interface CarService
 {
